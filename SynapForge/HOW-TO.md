@@ -148,6 +148,7 @@ Expected if synaplite-plugin isn't set up yet. Forge boots without it.
 - Discord: *link via VibeTech*
 - Forum: *link via VibeTech*
 - GitHub: https://github.com/vibetechxoffice-bit/Synap-Forge
+- Full binary package (Windows, includes llama binaries + CUDA): https://drive.google.com/drive/folders/1QmP3DrD934nzgpKHnawAd67JdHmY5_6m?usp=drive_link
 
 ---
 
