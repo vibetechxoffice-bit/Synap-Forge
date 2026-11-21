@@ -1,0 +1,15 @@
+{
+  "bridge": {
+    "host": "localhost",
+    "port": 11437
+  },
+  "mcp": {
+    "host": "localhost",
+    "port": 11440
+  },
+  "interceptor": {
+    "listen_port": 11439,
+    "forward_to_bridge": true,
+    "forward_to_mcp": true
+  }
+}

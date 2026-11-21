@@ -1,0 +1,77 @@
+# ── Binaries / Large files (go on Google Drive / Release assets) ──────────────
+SynapForge/llama/
+SynapForge/graph/
+SynapForge/ivector/
+SynapForge/conf/
+SynapForge/mcp/yay/
+SynapForge/mcp/chroma_db/
+SynapForge/launcher/audio/*.mp3
+SynapForge/mcp.rar
+*.dll
+*.exe
+*.so
+*.rar
+*.zst
+*.gz
+*.fst
+*.ie
+*.mat
+*.gguf
+*.bin
+*.mp3
+*.wav
+
+# ── Runtime state (generated on first boot) ──────────────────────────────────
+SynapForge/endpoint.json
+SynapForge/role_map.json
+SynapForge/discovery_results.json
+SynapForge/runtime/risa_memory/
+SynapForge/central_memory/
+SynapForge/knowledge_db.json
+SynapForge/__pycache__/
+SynapForge/**/__pycache__/
+SynapForge/**/*.pyc
+SynapForge/**/*.pyo
+*.pyc
+*.pyo
+__pycache__/
+
+# ── Environments ──────────────────────────────────────────────────────────────
+.venv/
+venv/
+Scripts/
+pyvenv.cfg
+Lib/
+*.env
+
+# ── Build artifacts ───────────────────────────────────────────────────────────
+*.spec
+dist/
+build/
+SynapForge/build/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -- Dev backup files ---------------------------------------------------------
+*.before_*
+*.before
+*.bad
+*.bak
+*.current_bad
+*.recovered_wrong
+*.intent_fix
+*.normalize_backup
+*.backup.*
+synap.pid
+SynapForge/json
+SynapForge/sys
+SynapForge/re
+SynapForge/time
+SynapForge/threading
+SynapForge/subprocess
+SynapForge/mcp/socket
+SynapForge/mcp/logging
+SynapForge/mcp/time

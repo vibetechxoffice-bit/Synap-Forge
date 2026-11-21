@@ -1,0 +1,40 @@
+# Synap-Forge — Core Runtime Requirements
+# Python 3.11+ recommended (tested on 3.15)
+# Install: pip install -r requirements.txt
+
+# === Web Server ===
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+starlette>=0.40.0
+websockets>=12.0
+pydantic>=2.7.0
+python-dotenv>=1.0.0
+
+# === HTTP / Networking ===
+httpx>=0.27.0
+requests>=2.32.0
+aiohttp>=3.10.0
+
+# === AI / ML Core ===
+numpy>=1.26.0
+scipy>=1.13.0
+scikit-learn>=1.4.0
+
+# === Memory / Storage ===
+redis>=5.0.0
+chromadb>=0.5.0
+SQLAlchemy>=2.0.0
+
+# === MCP Gateway (synaplite-plugin) ===
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# === Utilities ===
+colorama>=0.4.6
+click>=8.1.0
+Jinja2>=3.1.0
+anyio>=4.0.0
+
+# ─── OPTIONAL: Voice / Audio ──────────────────────────────────────────────────
+# Install separately: pip install -r requirements-voice.txt
+# whisper, sounddevice, soundfile, librosa, numba
